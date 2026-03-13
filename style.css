@@ -46,7 +46,7 @@ a,
     position:absolute;
     top: 30%;
     left: 22%;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 10px;
     margin: 5rem;
     padding: 10px;
@@ -82,7 +82,7 @@ article{
 }
 
 p{
-    font-size: 20px;
+    font-size: 10px;
 }
 
 /*Meus projetos*/
@@ -91,7 +91,7 @@ p{
     color:rgb(237, 219, 219);
     text-align: center;
     padding: 50px;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 /*rodape*/
@@ -110,7 +110,7 @@ h2{
 }
 
 a{
-    font-size: 30px;
+    font-size: 10px;
 }
 
 /*responsividade*/
