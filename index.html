@@ -1,72 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--custom css-->
-    <link rel="stylesheet" href="style.css">
-    <title>Luana Souza</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luana | Front-End</title>
+<link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-<!--Inicio com navegação-->
-    <div class="container-banner">
-         <img class="img-banner" src="img/tecbanner.2.jpg" alt="Imagem de caminhos semalhantes a um chip"/>
-     <div class="logo">Luana Souza [Em desenvolvimento]
-            <ul class="bar-items">
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Projetos</a>
-                </li>
-                <li>
-                    <a href="#">Contatos</a>
-                </li>
-            </ul>       
-        
-        </div>
-    </div>    
-<!--Conteúdo principal MAIN-->
-<main class="description">
- <div class="perfil">
-        <img class="me"  src="img/Perfil Luana 3.jpg" alt="Foto de perfil do candidato"/>
-        <h1>Olá eu me chamo Luana e este é o meu portifólio ainda em desenvolvimento</h1>
-        <p>Desenvolvedor web júnior</p>
-        <p>Gosto muito de como usar a minha criatividade desenvolvendo paginas web.</p> 
-    </div>
-<!--listagem de projetos-->
-    <section class="portifolio">
-        <h1 class="Projects">Meus projetos</h1>
-    <!--Projeto1-->
-            <article>
-                <h1>Nome do projeto</h1>
-                    <img src="imagem do projeto" alt="">
-                <p>Descrição do projeto</p>
-            </article>
-    <!--Projeto 2-->
-        <article>
-            <h1>Nome do projeto 2</h1>
-            <img src="imagem do projeto" alt="">
-            <p>Descrição do projeto</p>
-        </article>
-    <!--Projeto 3-->
-        <article>
-            <h1>Nome do projeto 3</h1>
-            <img src="imagem do projeto" alt="">
-            <p>Descrição do projeto</p>
-        </article>
-    </section>
-</main>
-   
-<!--rodape - footer-->
-<footer id="contato">
-    <h2>Entre em contato</h2>
-    <p>Email:luana.louise92@gmail.com</p>
-    <a href="https://github.com/LouiseKA-10">GitHub</a>
-    <a href="https://linkedin.com/in/luana-louise-da-silva-souza-9a7b41144">Linkedin</a>
 
-</footer>
+<nav>
+<h2>Luana</h2>
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
 
+<header>
+<h1>Olá, eu sou Luana 👩‍💻</h1>
+<p>Desenvolvedora Front-End em formação</p>
+</header>
+
+<section id="sobre" class="fade-in">
+<h2>Sobre mim</h2>
+<p class="perfil">
+Olá! 
+Sou estudante de Análise e Desenvolvimento de Sistemas, iniciando o meu aprendizado em desenvolvimento web front-end.
+Atualmente, estou me especializando por meio de cursos complementares, desenvolvendo habilidades em HTML, CSS, JavaScript, React e Angular, com foco na criação de interfaces modernas, responsivas e funcionais.
+Já desenvolvi projetos práticos de páginas web, aplicando conceitos de estruturação, estilização e responsividade, sempre buscando entregar uma boa experiência ao usuário.
+Sou dedicada, comunicativa e uma pessoa curiosa em usar a tecnologia para melhorar a experiência do usuário. 
+Estou em busca de uma oportunidade de estágio em desenvolvimento front-end, onde eu possa aprender, evoluir tecnicamente e contribuir com a equipe.
+Fique a vontade para entrar em contato! 
+</p>
 </section>
+
+<section id="projetos" class="fade-in">
+<h2>Projetos</h2>
+
+<div class="container-projetos">
+<div class="card">
+<h3>Landing Page Responsiva</h3>
+<p>Projeto desenvolvido com HTML e CSS focado em responsividade.</p>
+<a href="#" target="_blank">Ver projeto</a>
+</div>
+
+<div class="card">
+<h3>Portfólio Web</h3>
+<p>Site pessoal com layout moderno e organização semântica.</p>
+<a href="#" target="_blank">Ver projeto</a>
+</div>
+
+<div class="card">
+<h3>Site Institucional</h3>
+<p>Interface com foco em design e experiência do usuário.</p>
+<a href="#" target="_blank">Ver projeto</a>
+</div>
+</div>
+</section>
+
+<section id="contato" class="fade-in">
+<h2>Contato</h2>
+<p>Email: luana.louise92@gmail.com</p>
+<p>GitHub: github.com/seuusuario</p>
+<!--botão voltar ao topo-->
+<button id="topo">voltar ao topo ⬆</button>
+</section>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
