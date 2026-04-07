@@ -1,5 +1,5 @@
 // BOTÃO VOLTAR AO TOPO
-const botao =  document get ElementById("topo");
+const botao = documentgetElementById("topo");
 
 window.addEventListener("scroll", () => {
 if (window.scrollY > 200) {
